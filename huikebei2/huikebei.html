@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+        
+<head>
+    <meta charset="utf-8">
+    <title>常州大学第二届“慧科杯”计算机应用大赛</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?e923abbdb8d94e0d601be859953af534";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <link href="img/logo.ico" rel="shortcut icon">
+    <!-- Favicon -->
+    
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="css/all.min.css" rel="stylesheet">
+    <link href="font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">加载中...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <a href="huikebei.html" class="navbar-brand">
+                    <img src="img/CTIA-white-long.png" width=30% alt="">
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="huikebei.html" class="nav-item nav-link active">首页</a>
+                        <a href="files/huikebei2023.pdf" class="nav-item nav-link">大赛通知</a>
+                        <a href="signup.html" class="nav-item nav-link">比赛报名</a>
+                        <a href="#qa" class="nav-item nav-link">问题帮助</a>
+                        <a href="#contact" class="nav-item nav-link">联系我们</a>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Start -->
+    <div class="container-fluid pt-5 bg-primary hero-header mb-5">
+        <div class="container pt-5">
+            <div class="row g-5 pt-5">
+                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3 animated slideInRight">常州大学</div>
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3 animated slideInRight">慧科杯</div>
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3 animated slideInRight">计算机应用大赛</div>
+                    <h1 class="display-6 text-white mb-6 animated slideInRight">常州大学第二届“慧科杯”</h1>
+                    <h1 class="display-5 text-white mb-5 animated slideInRight">大学生计算机应用大赛</h1>
+<p class="text-white mb-4 animated slideInRight">主办：共青团常州大学委员会<br>协办：慧科集团<br>承办：计算机与人工智能学院、阿里云大数据学院、软件学院大学生科技创新协会</p>
+                    <a href="signup.html" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInRight">立即报名</a>
+                    <a href="https://jq.qq.com/?_wv=1027&k=pYwAm4Cu" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">大赛交流群</a>
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-lg-end">
+                    <img class="img-fluid" src="img/hero-img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(20, 24, 62, 0.7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn btn-square bg-white btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-light p-3"
+                            placeholder="Type search keyword">
+                        <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img">
+                        <img class="img-fluid" src="img/1st-huikebei.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">关于大赛</div>
+                    <h1 class="mb-4">“慧科杯”计算机应用大赛</h1>
+                    <p class="mb-4">大赛是落实国家工业互联网创新发展战略，培养和激发学生创新意识和创新思维，为社会培养高素质技能人才的重要举措。以赛促学，增强广大在校大学生的计算机应用与融媒体技能，对于进一步落实学校培养应用型人才的目标要求、促进产学研相结合有着重要意义。</p>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>校级比赛</h6>
+                            <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>学科竞赛</h6>
+                        </div>
+                        <div class="col-sm-6">
+                            <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>奖金丰厚</h6>
+                            <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>赛道众多</h6>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mt-4">
+                        <a class="btn btn-primary rounded-pill px-4 me-3" href="files/huikebei2023.pdf">了解更多</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">大赛新闻</div>
+                    <h1 class="mb-4">大赛最新消息</h1>
+                    <p class="mb-4"><b>初赛报名和材料提交于2023年5月17日23:00截止，决赛暂定2023年5月31日</b>，于常州大学西太湖校区阶梯教室（时间、地点关注后续发布）举行。</p>
+                    <a class="btn btn-primary rounded-pill px-4" href="https://jq.qq.com/?_wv=1027&k=pYwAm4Cu">更多消息</a>
+                </div>
+                <div class="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel border-start border-primary">
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-rss-square fa-2x text-primary mb-3"></i>
+                            <p class="fs-4">①官网线上报名（团队成员填写见末尾）；<br>②报名成功后将作品及附件打包发送至邮箱cczuctia@163.com，邮件标题命名为【慧科杯报名+负责人姓名+赛道代码+作品名称】（赛道代码详见大赛通知文件附件），提交成功会收到系统回信。比赛交流QQ群：198252030</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg"
+                                    style="width: 60px; height: 60px;">
+                                <div class="ps-3">
+                                    <h5 class="mb-1">CTIA科创协会</h5>
+                                    <span>官方发布</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-rss-square fa-2x text-primary mb-3"></i>
+                            <p class="fs-4">①官网线上报名（团队成员填写见末尾）；<br>②报名成功后将作品及附件打包发送至邮箱cczuctia@163.com，邮件标题命名为【慧科杯报名+负责人姓名+赛道代码+作品名称】（赛道代码详见大赛通知文件附件），提交成功会收到系统回信。比赛交流QQ群：198252030</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg"
+                                    style="width: 60px; height: 60px;">
+                                <div class="ps-3">
+                                    <h5 class="mb-1">CTIA科创协会</h5>
+                                    <span>官方发布</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-rss-square fa-2x text-primary mb-3"></i>
+                            <p class="fs-4">①官网线上报名（团队成员填写见末尾）；<br>②报名成功后将作品及附件打包发送至邮箱cczuctia@163.com，邮件标题命名为【慧科杯报名+负责人姓名+赛道代码+作品名称】（赛道代码详见大赛通知文件附件），提交成功会收到系统回信。比赛交流QQ群：198252030</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg"
+                                    style="width: 60px; height: 60px;">
+                                <div class="ps-3">
+                                    <h5 class="mb-1">CTIA科创协会</h5>
+                                    <span>官方发布</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+
+
+
+
+    <!-- Service Start -->
+    <div class="container-fluid bg-light mt-5 py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">大赛赛道</div>
+                    <h1 class="mb-4">大赛赛道和分类设置</h1>
+                    <p class="mb-4">（一）主体赛事。包括<b>应用技术赛道</b>、<b>数媒与短片赛道</b>（详见“了解更多”）。<br>（二）同期活动。常州大学第二届“慧科杯”大学生计算机应用大赛优秀作品展播。</p>
+                    <a class="btn btn-primary rounded-pill px-4" href="files/huikebei2023.pdf">下载通知</a>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-robot fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">应用技术赛道</h5>
+                                        <p>1.1.软件应用与开发类<br>1.2.大数据应用类<br>1.3.人工智能应用类<br>1.4.信息可视化设计类<br>　</p>
+                                        <a class="btn px-3 mt-auto mx-auto" href="signup.html">立即报名</a>
+                                    </div>
+                                </div>
+                                <!-- <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-power-off fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">Machine learning</h5>
+                                        <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet
+                                            diam sed stet lorem.</p>
+                                        <a class="btn px-3 mt-auto mx-auto" href="">了解更多</a>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-graduation-cap fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">数媒与短片赛道</h5>
+                                        <p>2.1.微电影<br>2.2.数字短片<br>2.3.纪录片<br>2.4.动画<br>2.5.新媒体漫画类</p>
+                                        <a class="btn px-3 mt-auto mx-auto" href="signup.html">立即报名</a>
+                                    </div>
+                                </div>
+                                <!-- <div class="col-12 wow fadeIn" data-wow-delay="0.7s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-brain fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">Predictive Analysis</h5>
+                                        <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet
+                                            diam sed stet lorem.</p>
+                                        <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+
+
+
+    <!-- Case Start -->
+    <div class="container-fluid bg-light py-5">
+        <div class="container py-5">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+                <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">往届风采</div>
+                <h1 class="mb-4">浏览往届获奖作品</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/project-1.jpg" alt="">
+                        <a class="case-overlay text-decoration-none" href="https://mp.weixin.qq.com/s?__biz=Mzg2MTg2NjQ5OA==&mid=2247486029&idx=2&sn=325557d426f8cc81409629021b60fae0&chksm=ce11d520f9665c367ea64374f828775a7d86abecd1ecfa8806905b3b34a0814c92952164cda4#rd">
+                            <small>数媒与短片赛道</small>
+                            <h5 class="lh-base text-white mb-3">疫情下的常大元宇宙校园</h5>
+                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/project-2.jpg" alt="">
+                        <a class="case-overlay text-decoration-none" href="https://mp.weixin.qq.com/s?__biz=Mzg2MTg2NjQ5OA==&mid=2247486029&idx=3&sn=9bfcdb9c67fc8d9f779b766b14f2b976&chksm=ce11d520f9665c36921435bd97c6fd465d3a2b4105eec789d7240b2c764a8feb2637f2eec27c#rd">
+                            <small>应用技术赛道</small>
+                            <h5 class="lh-base text-white mb-3">基于中国城市降水数据的定量分析</h5>
+                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/project-3.jpg" alt="">
+                        <a class="case-overlay text-decoration-none" href="https://mp.weixin.qq.com/s?__biz=Mzg2MTg2NjQ5OA==&mid=2247486029&idx=4&sn=fa5aabf34acf8e81cc3ba40be3fbe1ee&chksm=ce11d520f9665c36e422840f77bd1f40939bf9a1fa850bf9447649123eb4793dd247d27915eb#rd">
+                            <small>应用技术赛道</small>
+                            <h5 class="lh-base text-white mb-3">基于Scrapy和FastAPI的电商爬虫及商品可视化分析</h5>
+                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Case End -->
+
+
+    <!-- FAQs Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+                <div id="qa" class="btn btn-sm border rounded-pill text-primary px-3 mb-3">常见问题</div>
+                <h1 class="mb-4">更多参见<a href="https://docs.qq.com/doc/DTVp0QWVCZ3drS3p2">答疑文档</a></h1>
+            </div>
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <div class="accordion" id="accordionFAQ1">
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.1s">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    作品必须添加指导老师吗?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body">
+                                    应用技术类每队参赛人数为1-3人，指导教师不多于2人，可无指导老师；数媒与短片类每队参赛人数为1-5人，指导教师不多于2人，可无指导老师。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.2s">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    可以用之前的参赛作品参赛吗？
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body">
+                                    不可以。所有类（组）的每一件参赛作品，必须是参赛者在本届大赛期间（2022.7.1 - 2023.5.17）完成的原创作品。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.3s">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    初赛在哪里参加？
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body">
+                                    官网、公众号、QQ群指定入口提交作品。初赛采用线上报名，请于2023年5月17日前将材料打包发送至：<b>cczuctia@163.com</b>。<br>邮件标题命名为<b>【慧科杯报名+负责人姓名+赛道代码+作品名称】</b>（赛道代码详见附件），提交成功会收到自动回信。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.4s">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                    决赛地点在哪里?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body">
+                                    暂定为西太湖阶梯教室，具体地点敬请关注比赛群消息和公众号发布。
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="accordion" id="accordionFAQ2">
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.5s">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    决赛如何评选？
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                data-bs-parent="#accordionFAQ2">
+                                <div class="accordion-body">
+                                    现场展示作品并答辩。学院老师、专家对队伍的表现情况和作品的整体效果进行打分。根据现场评分选出一等奖、二等奖、三等奖各若干项。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.6s">
+                            <h2 class="accordion-header" id="headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    大赛QQ群是多少？
+                                </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                data-bs-parent="#accordionFAQ2">
+                                <div class="accordion-body">
+                                    198252030（入群修改备注为 班级+姓名）
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.7s">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    如何查看作品及附件是否符合比赛要求？
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                                data-bs-parent="#accordionFAQ2">
+                                <div class="accordion-body">
+                                    在大赛通知附件材料中已设置检查单，参赛选手可根据检查单逐项检查是否存在问题。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.8s">
+                            <h2 class="accordion-header" id="headingEight">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                    我也想参加监督工作，如何申请？
+                                </button>
+                            </h2>
+                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                                data-bs-parent="#accordionFAQ2">
+                                <div class="accordion-body">
+                                    将个人简历或个人简介发送至科协邮箱cczuctia@163.com后，等待工作人员向您回信。
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    <!-- FAQs Start -->
+
+
+    <!-- Team Start -->
+    <div class="container-fluid bg-light py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">纪律监督</div>
+                    <h1 class="mb-4">诚邀您的监督</h1>
+                    <p class="mb-4"></p>
+                    <a class="btn btn-primary rounded-pill px-4" href="999report.html">举报违规</a>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
+                                        <img class="img-fluid rounded-circle p-4" src="img/h1.png" alt="">
+                                        <h5 class="mb-0">纪律监督</h5>
+                                        <small>大赛流程和公平性监督</small>
+                                        <!-- <div class="d-flex justify-content-center mt-3">
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-facebook-f"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-twitter"></i></a>
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
+                                        <img class="img-fluid rounded-circle p-4" src="img/h2.png" alt="">
+                                        <h5 class="mb-0">作品监督</h5>
+                                        <small>材料提交和真实性监督</small>
+                                        <!-- <div class="d-flex justify-content-center mt-3">
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-facebook-f"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-twitter"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-instagram"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-linkedin-in"></i></a>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pt-md-4">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
+                                        <img class="img-fluid rounded-circle p-4" src="img/h3.png" alt="">
+                                        <h5 class="mb-0">评审监督</h5>
+                                        <small>作品审查和评分监督</small>
+                                        <!-- <div class="d-flex justify-content-center mt-3">
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-facebook-f"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-twitter"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-instagram"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-linkedin-in"></i></a>
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.7s">
+                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
+                                        <img class="img-fluid rounded-circle p-4" src="img/h4.png" alt="">
+                                        <h5 class="mb-0">版权监督</h5>
+                                        <small>知识产权监督</small>
+                                        <!-- <div class="d-flex justify-content-center mt-3">
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-facebook-f"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-twitter"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-instagram"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-linkedin-in"></i></a>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer pt-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <a href="huikebei.html" class="d-inline-block mb-3">
+                        <img src="img/CTIA-white.png" alt="">
+                    </a>
+                    <p class="mb-0">计算机与人工智能学院 阿里云大数据学院 软件学院大学生科技创新协会（CTIA）是在院党委领导、院团委直接指导下，旨在提高大学生实践创新能力、项目实战能力、学科竞赛能力的学院学生组织。</p>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <h5 id="contact" class="text-white mb-4">联系我们</h5>
+                    <a class="btn btn-link" href="">延政西大道2468号 常州大学西太湖校区</a>
+                    <a class="btn btn-link" href="https://jq.qq.com/?_wv=1027&k=pYwAm4Cu">大赛群：198252030</a>
+                    <a class="btn btn-link" href="mailto:cczuctia@163.com">cczuctia@163.com</a>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="http://wpa.qq.com/msgrd?v=3&uin=2587213380&site=qq&menu=yes"><i class="fab fa-qq"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://mp.weixin.qq.com/s?__biz=Mzg2MTg2NjQ5OA==&mid=2247484656&idx=1&sn=4a01a98f92d5be5390fe7161639ffec9&chksm=ce11db9df966528baf0ff7da406a9f97a1b47aa5444715c6ae480047ae809e33c2e3ebc83a6a&token=1059358847&lang=zh_CN#rd"><i class="fab fa-weixin"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fa fa-universal-access"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://docs.qq.com/doc/DTVp0QWVCZ3drS3p2"><i class="fa fa-question-circle"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <h5 class="text-white mb-4">友情链接</h5>
+                    <a class="btn btn-link" href="https://www.cczu.edu.cn/main.htm">常州大学</a>
+                    <a class="btn btn-link" href="http://tw.cczu.edu.cn/main.htm">常州大学团委</a>
+                    <a class="btn btn-link" href="http://bigdata.cczu.edu.cn/main.htm">常大阿里云大数据学院</a>
+                    <a class="btn btn-link" href="https://www.huike.com/">慧科集团</a>
+                    <a class="btn btn-link" href="https://jq.qq.com/?_wv=1027&k=FrqDqSIZ">常州大学第七届计算机基础知识竞赛</a>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <h5 class="text-white mb-4">大赛活动</h5>
+                    <a class="btn btn-link" href="files/huikebei2023.pdf">大赛通知</a>
+                    <a class="btn btn-link" href="http://bigdata.cczu.edu.cn/2022/0615/c13709a294591/pagem.htm">相关报道</a>
+                    <a class="btn btn-link" href="#qa">问题答疑</a>
+                    <a class="btn btn-link" href="mailto:cczuctia@163.com">联系我们</a>
+                    <a class="btn btn-link" href="http://ctia.huikebei.kaikuo.pro/img/qrcode.jpg">关注我们</a>
+                </div>
+            </div>
+        </div>
+        <div class="container wow fadeIn" data-wow-delay="0.1s">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        
+
+                       
+                        Copyright &copy; 2023 CTIA. All rights reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="#">首页</a>
+                            <a href="signup.html">报名</a>
+                            <a href="#qa">帮助</a>
+                            <a href="mailto:cczuctia@163.com">联系</a>
+                            <a href="admin.html">管理登录</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="fa fa-angle-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
